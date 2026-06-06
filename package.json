@@ -1,0 +1,12 @@
+{
+  "name": "superinstance-vectorize",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Vectorize experiments for the SuperInstance agent knowledge base",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "create-index": "wrangler vectorize create superinstance-knowledge --dimensions=32 --metric=cosine",
+    "query": "wrangler vectorize query superinstance-knowledge --vector"
+  }
+}
