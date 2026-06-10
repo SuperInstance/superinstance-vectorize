@@ -1,6 +1,6 @@
 # superinstance-vectorize
 
-*Cloudflare Vectorize as the agent knowledge graph — every crate is a vector, every query discovers synergy.*
+*Cloudflare Vectorize as the agent knowledge graph — every crate is a vector, every query discovers integration.*
 
 ## What
 
@@ -20,7 +20,7 @@ Each dimension maps to a domain/category:
 16-19: quality (testing, formal verification, creative writing, physics)
 20-23: applications (ecology, game theory, scheduling, data structures)
 24-27: systems (compiler, runtime, IoT, web)
-28-31: meta (experimental, meta-cognition, scaling, synergy)
+28-31: meta (experimental, meta-cognition, scaling, integration)
 
 ## API
 
