@@ -1,0 +1,12 @@
+name = "superinstance-vectorize"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+# Vectorize index bindings
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "superinstance-knowledge"
+
+# The knowledge index: 32-dim embeddings from our crates
+# Each vector represents a crate's "fingerprint" based on its test patterns,
+# API surface, and domain. Enables semantic search across 560+ repos.
